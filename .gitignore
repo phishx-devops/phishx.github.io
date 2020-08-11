@@ -1,7 +1,4 @@
-/build
-/build/
-/node_modules
-/node_modules/
-/docs/.vuepress/dist
-/docs/.vuepress/dist/
+build/
+node_modules/
+docs/.vuepress/dist/
 !/.gitignore
