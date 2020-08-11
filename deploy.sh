@@ -8,9 +8,10 @@ npm run docs:build
 rm -rf build/
 mkdir -p build/
 cp -R docs/.vuepress/dist/ build/
-git add .
+git checkout gh-pages
+git add build/.
 git commit -m 'deploy'
-git push -u origin master
+git push -u origin gh-pages
 # # navigate into the build output directory
 # cd docs/.vuepress/dist
 
